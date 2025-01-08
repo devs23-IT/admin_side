@@ -1,0 +1,49 @@
+.navColor{
+  background-color: skyblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+  border-radius: 8px;
+  border: 2px solid grey;
+  width: 396;
+  margin: 30px;
+  align-self: center;
+  padding: 28px;
+  justify-self: center;
+  background-color: fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1),0px 8px 16px rgba(0, 0, 0, .1);
+  
+  
+}
+
+.headers{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.forget{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.welcomeText,.forget{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+button{
+  border-radius: 6px;
+  background-color: skyblue;
+  height: 43px;
+}
+input{
+  border-radius: 6px;
+  padding:  10px 16px  ;
+}
+input:focus {
+  outline: none; 
+  border: 1px solid skyblue;
+  background-color: white; 
+}
